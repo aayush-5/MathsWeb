@@ -1,0 +1,280 @@
+body{
+	font: Arial,Helvetica,sans-serif;
+}
+#container{
+	width:1050px;
+	margin 0 auto;
+}
+
+#header{
+	height: 100px;
+	padding: 10px 0;
+}
+
+#brand{
+	float: left;
+}
+
+h1 a{
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: 100;
+	color: darkviolet;
+}
+
+#searchbox{
+	float: right;
+	background: linear-gradient(yellow,yellowgreen);
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px 0px 20px;
+	margin-top: 20px;
+}
+
+.text{
+	float: left;
+	padding: 5px;
+	color:orange;
+	width: 200px;
+	font-size: 15px;
+	background: white url()
+	border: 1px solid red;
+}
+
+.submit{
+	float: right;
+	background-color: darkviolet;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+}
+
+ul{
+	list-style: none;
+}
+#menu{
+	height: 70px;
+	background: linear-gradient(yellow,yellowgreen);
+	padding: 7px 0;
+}
+
+#menu ul li:last-child{
+	border-right: none;
+}
+
+#menu ul li{
+float: left;
+padding: 0 30px;
+height: 30px;
+border-right: 1px solid darkviolet;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 30px;
+	color: darkviolet;
+	transition: font-size 0.3s ease;
+}
+#menu ul li a:hover,#menu ul li a.active{
+	font-size: 20px;
+	font-weight: bold;
+	color:darkviolet;
+}
+
+#introduction{
+	padding:10px;
+	margin:16px 0px;
+	background: linear-gradient(white,yellowgreen);
+}
+#introduction h3{
+	color: darkgreen;
+	font-size: 40px;
+}
+
+#introduction p{
+	font-size: 25px;
+	color: green;
+	text-align: justify;
+}
+
+.sidebar{
+	height: 540px;
+	width: 440px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+#side1 ul li{
+	padding-bottom: 6px;
+	padding-left: 10px;
+	list-style-image: url(images/arrow.png);
+}
+
+.sidebar ul li a{
+	font-size: 20px;
+	color: #5d12e7;
+	text-decoration: none;
+	transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+	text-decoration: none;
+	color:darkviolet;
+	font-weight: bolder;
+	font-size: 25px;
+}
+.sidebar h3{
+	font-size: 30px;
+	color: darkviolet;
+	font-weight: bold;
+}
+.clear{
+	clear: both;
+}
+
+#side1{
+	float: left;
+}
+
+#side2{
+	float: right;
+}
+
+.sidebar ul{
+	padding-top: 8px;
+}
+
+#side2 ul li{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+	list-style-image: url(images/correct.png);
+}
+
+.footer{
+	height: 50px;
+	padding:10px 10px 10px 10px;
+	background: linear-gradient(white,yellow);
+	margin-top: 15px;
+}
+
+
+#form{
+	height: 550px;
+	width: 440px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #007FC0;
+	background:linear-gradient(yellow,yellowgreen); 
+	margin-right:500px;
+	float: right;
+}
+
+.submit-form input[type=submit]
+{
+	background-color: #007FC0;
+	color: white;	
+	border-radius: 10px;
+	width: 440px;
+	height: 50px;
+	font-size: 20px;
+	padding: 3px;
+	border-color: yellowgreen;
+}
+#topline{
+	color: DarkOrange;
+}
+///////////////tutorhtml coding css//////////////////
+#headline{
+	color: black;
+}
+
+#top{
+	height: 70px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-right:5px;
+	background-color: rgb(243,249,253);
+}
+
+#back{
+	float: right;
+}
+h4 a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: Roboto;
+	font-weight: lighter;
+}
+
+#middle{
+	height: 200px;
+	background-color: rgb(12,147,207);
+	margin-top: 0px;
+	padding-top: 1px;
+}
+
+#line{
+	text-align:center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#tagline{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-size: bolder;
+	padding-top:0px;
+}
+
+#cover{
+	background-color: rgb(243,249,253);
+}
+
+#tutorform{
+	height: 380px;
+	width: 440px;
+	border: 1px solid grey;
+	border-radius:20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #007FC0;
+	margin-right:500px;
+	margin-top: 10px;
+	margin-left: 6000px;
+	float: right;
+}
+
+.tutor-form input[type=submit]{
+	background-color: #007FC0;
+	color: white;	
+	border-radius: 10px;
+	width: 100px;
+	height: 45px;
+	font-size: 20px;
+	padding: 3px;
+	margin-left: 100px;
+}
+
+.tutor-form input[type=reset]{
+	background-color: red;
+	color: white;	
+	border-radius: 10px;
+	width: 100px;
+	height: 45px;
+	font-size: 20px;
+	padding: 3px;
+
+}
